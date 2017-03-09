@@ -1,0 +1,433 @@
+@import url("reset.css");
+html {
+  font-size: 62.5%;
+}
+.whole {
+  width: 100%;
+  height: 100%;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.whole .part {
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.whole .part > div {
+  width: 100%;
+  display: none;
+}
+.whole .part .active {
+  display: block;
+}
+.whole header {
+  width: 100%;
+  height: 42px;
+  background: #ff5000;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.whole header span {
+  width: 51px;
+  height: 35px;
+  background: none;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+}
+.whole header span img {
+  width: 20px;
+  height: auto;
+  background: #ff5000;
+  margin-top: 3px;
+}
+.whole header .put {
+  -webkit-box-flex: 1;
+  position: relative;
+}
+.whole header .put input {
+  width: 100%;
+  height: 30px;
+  background: none;
+  border: none;
+  outline: none;
+  margin-top: 6px;
+  border-bottom: 1px solid #fff;
+}
+.whole header .put input::-webkit-input-placeholder {
+  color: #fff;
+  padding-left: 20px;
+}
+.whole header .put .s_left {
+  position: absolute;
+  left: -16px;
+  top: 13px;
+}
+.whole header .put .s_left img {
+  width: 13px;
+  height: 13px;
+  background: none;
+}
+.whole header .put .s_right {
+  position: absolute;
+  right: -13px;
+  top: 11px;
+}
+.whole header .put .s_right img {
+  width: 13px;
+  height: 13px;
+  background: none;
+}
+.whole section {
+  overflow-y: auto;
+  -webkit-box-flex: 1;
+}
+.whole section::-webkit-scrollbar {
+  width: 0;
+}
+.whole section img {
+  margin-top: 1px;
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+.whole section .photo {
+  width: 100%;
+  height: auto;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.whole section .photo dl {
+  -webkit-box-flex: 1;
+  text-align: center;
+}
+.whole section .photo dl dt img {
+  width: auto;
+  height: 32px;
+  background: none;
+}
+.whole section .logo {
+  width: 100%;
+  height: auto;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.whole section .logo .l_left {
+  width: 63px;
+  height: 42px;
+  background: none;
+}
+.whole section .logo .l_left img {
+  width: 40px;
+  height: 40px;
+  background: none;
+  margin-left: 8px;
+}
+.whole section .logo .l_right p {
+  margin-bottom: 5px;
+}
+.whole section .logo .l_right span {
+  width: 30px;
+  height: 15px;
+  background: none;
+  display: inline-block;
+  border: 1px solid red;
+  color: red;
+  text-align: center;
+  line-height: 15px;
+  margin-right: 10px;
+}
+.whole section .logo2 {
+  width: 100%;
+  height: auto;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.whole section .logo2 .logo_left {
+  width: 80px;
+  height: 50px;
+  background: none;
+  display: inline-block;
+  text-align: center;
+}
+.whole section .logo2 .logo_left img {
+  width: 45px;
+  height: 33px;
+  background: none;
+  margin-top: 4px;
+}
+.whole section .logo2 .logo_right {
+  width: 80px;
+  height: 50px;
+  background: none;
+  display: inline-block;
+  -webkit-box-flex: 1;
+  margin-right: 45px;
+}
+.whole section .logo2 .logo_right img {
+  width: 75px;
+  height: 42px;
+  background: none;
+  margin-top: -4px;
+}
+.whole section .logo2 .logo_center {
+  -webkit-box-flex: 2;
+}
+.whole section .logo2 .logo_center h1 {
+  color: #ff4900;
+}
+.whole section .logo2 .logo_center p {
+  color: silver;
+}
+.whole section .foot img {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.whole .part_two {
+  width: 100%;
+  height: 100%;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.whole .part_two header {
+  width: 100%;
+  height: 35px;
+  background: #f8f8f8;
+  border-bottom: 1px solid #e9e9e9;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.whole .part_two header h1 {
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 35px;
+}
+.whole .part_two header div {
+  width: 40px;
+  height: 35px;
+  background: none;
+  line-height: 35px;
+  text-align: center;
+}
+.whole .part_two header div img {
+  width: 16px;
+  height: 16px;
+  background: none;
+  margin-bottom: -2px;
+}
+.whole .part_two header .r {
+  width: 52px;
+  height: 35px;
+  background: none;
+}
+.whole .part_two header .r img {
+  margin-right: 10px;
+}
+.whole section {
+  -webkit-box-flex: 1;
+}
+.whole section::-webkit-scrollbar {
+  width: 0;
+}
+.whole section .nav {
+  width: 100%;
+  height: 40px;
+  background: #f8f8f8;
+  border-bottom: 1px solid #e9e9e9;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.whole section .nav dl {
+  -webkit-box-flex: 1;
+  text-align: center;
+}
+.whole section .nav dl dt img {
+  width: auto;
+  height: 15px;
+  background: none;
+  margin-top: 3px;
+}
+.whole section .nav dl dd span {
+  width: 100%;
+  height: 2px;
+  background: #fa6b1c;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+.whole section .you {
+  width: 100%;
+  height: 28px;
+  background: none;
+  border-bottom: 1px solid #e9e9e9;
+}
+.whole section .you h1 {
+  color: #999999;
+  line-height: 28px;
+  margin-left: 10px;
+}
+.whole section .you span {
+  width: 8px;
+  height: 8px;
+  background: none;
+  border: 1px solid silver;
+  display: inline-block;
+  float: right;
+  margin-top: -21px;
+  margin-right: 20px;
+  transform: rotate(45deg);
+  border-top: none;
+  border-left: none;
+}
+.whole section .logo {
+  width: 100%;
+  height: auto;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.whole section .logo h2 {
+  -webkit-box-flex: 1;
+  color: #7680c7;
+}
+.whole section .logo h2 img {
+  width: 45px;
+  height: 12px;
+  background: none;
+  margin-left: 5px;
+  margin-bottom: -1px;
+}
+.whole section .logo .l_l img {
+  width: 30px;
+  height: 30px;
+  background: none;
+  margin-right: 8px;
+}
+.whole section .logo .l_r img {
+  width: 55px;
+  height: 23px;
+  background: none;
+}
+.whole section p {
+  margin-left: 10px;
+}
+.whole section .video {
+  width: 100%;
+  height: auto;
+  background: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.whole section .video h4 {
+  color: #abadac;
+  float: left;
+}
+.whole section .video h4 img {
+  width: auto;
+  height: 12px;
+  background: none;
+}
+.whole section .video span {
+  width: 47px;
+  height: 15px;
+  background: none;
+  display: inline-block;
+  border: 1px solid silver;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 15px;
+  float: right;
+  color: #abadac;
+}
+.whole section .video span img {
+  width: auto;
+  height: 12px;
+  background: none;
+}
+.whole section .foot {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.whole section .foot span {
+  color: #9a9a9a;
+  padding-left: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 22px;
+  background: none;
+  display: inline-block;
+  border-bottom: 1px solid #e9e9e9;
+}
+.whole section .foot .foot-p {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 10px;
+}
+.whole section .foot .foot-p span {
+  width: auto;
+  height: 35px;
+  background: none;
+}
+.whole section .foot .foot-p .foot_h p {
+  color: #9a9a9a;
+}
+.whole section .foot .foot-p .foot_h h1 {
+  margin-left: 11px;
+}
+.whole .part_four {
+  width: 100%;
+  height: 100%;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.whole .part_four header {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 35px;
+  background: #f9f9f9;
+  border-bottom: 1px solid silver;
+}
+.whole .part_four header h1 {
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 35px;
+}
+.whole .part_four header span {
+  width: 50px;
+  height: 35px;
+  background: none;
+  display: inline-block;
+}
+.whole .part_four section {
+  -webkit-box-flex: 1;
+}
+.whole footer {
+  width: 100%;
+  height: 40px;
+  background: none;
+  border-top: 1px solid silver;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.whole footer dl {
+  -webkit-box-flex: 1;
+  text-align: center;
+  margin-top: 2px;
+}
+.whole footer dl dt img {
+  width: auto;
+  height: 16px;
+  background: none;
+}
